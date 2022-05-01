@@ -1,8 +1,8 @@
 # FlyTracker
 
 installation:
-  pip install opencv-python
-  pip install numpy
+  * pip install opencv-python
+  * pip install numpy
 
 create images from video using GetFramesFromVideo.py
   change video name and output directories accordingly
