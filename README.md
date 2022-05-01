@@ -1,12 +1,12 @@
 # FlyTracker
 
 installation:
-  -pip install opencv-python
-  -pip install numpy
+  pip install opencv-python
+  pip install numpy
 
--create images from video using GetFramesFromVideo.py
+create images from video using GetFramesFromVideo.py
   change video name and output directories accordingly
--create tracked frames from video image frames using TrackFly.py
+create tracked frames from video image frames using TrackFly.py
   output is one mask frame per video frame with object (fly) at 255 and background at 0
   Note: I hard-wired a cropping to remove the ruler on the left side and some noise at the top
   
